@@ -1,0 +1,94 @@
+---
+id: ex8-101
+name: Manectric ex
+supertype: Pokémon
+subtypes:
+- Stage 1
+- EX
+hp: '100'
+types:
+- Lightning
+evolvesFrom: Electrike
+rules:
+- When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards.
+attacks:
+- name: Disconnect
+  cost:
+  - Lightning
+  - Colorless
+  convertedEnergyCost: 2
+  damage: '40'
+  text: Your opponent can't play any Trainer cards (except for Supporter cards) from
+    his or her hand during your opponent's next turn.
+- name: Mega Shot
+  cost:
+  - Lightning
+  - Lightning
+  - Colorless
+  convertedEnergyCost: 3
+  damage: ''
+  text: Discard all Lightning Energy attached to Manectric ex and then choose 1 of
+    your opponent's Pokémon. This attack does 80 damage to that Pokémon. (Don't apply
+    Weakness and Resistance for Benched Pokémon.)
+weaknesses:
+- type: Fighting
+  value: "×2"
+resistances:
+- type: Metal
+  value: "-30"
+retreatCost:
+- Colorless
+convertedRetreatCost: 1
+set:
+  id: ex8
+  name: Deoxys
+  series: EX
+  printedTotal: 107
+  total: 108
+  legalities:
+    unlimited: Legal
+  ptcgoCode: DX
+  releaseDate: 2005/02/01
+  updatedAt: 2019/01/28 16:44:00
+  images:
+    symbol: https://images.pokemontcg.io/ex8/symbol.png
+    logo: https://images.pokemontcg.io/ex8/logo.png
+number: '101'
+artist: Hikaru Koike
+rarity: Rare Holo EX
+nationalPokedexNumbers:
+- 310
+legalities:
+  unlimited: Legal
+images:
+  small: https://images.pokemontcg.io/ex8/101.png
+  large: https://images.pokemontcg.io/ex8/101_hires.png
+tcgplayer:
+  url: https://prices.pokemontcg.io/tcgplayer/ex8-101
+  updatedAt: 2023/09/10
+  prices:
+    holofoil:
+      low: 40.01
+      mid: 44.62
+      high: 56.0
+      market: 49.99
+      directLow: 
+cardmarket:
+  url: https://prices.pokemontcg.io/cardmarket/ex8-101
+  updatedAt: 2023/09/10
+  prices:
+    averageSellPrice: 44.63
+    lowPrice: 5.0
+    trendPrice: 25.02
+    germanProLow: 0.0
+    suggestedPrice: 0.0
+    reverseHoloSell: 0.0
+    reverseHoloLow: 0.0
+    reverseHoloTrend: 11.74
+    lowPriceExPlus: 15.0
+    avg1: 80.0
+    avg7: 24.22
+    avg30: 19.62
+    reverseHoloAvg1: 9.99
+    reverseHoloAvg7: 9.68
+    reverseHoloAvg30: 14.24

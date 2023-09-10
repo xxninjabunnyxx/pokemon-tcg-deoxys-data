@@ -1,0 +1,95 @@
+---
+id: ex8-38
+name: Manectric
+supertype: Pokémon
+subtypes:
+- Stage 1
+hp: '70'
+types:
+- Lightning
+evolvesFrom: Electrike
+attacks:
+- name: Thunder Spear
+  cost:
+  - Lightning
+  convertedEnergyCost: 1
+  damage: ''
+  text: Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon.
+    (Don't apply Weakness and Resistance for Benched Pokémon.)
+- name: Magnetic Tackle
+  cost:
+  - Colorless
+  - Colorless
+  - Colorless
+  convertedEnergyCost: 3
+  damage: 40+
+  text: You may do 40 damage plus 10 more damage for each Lightning Energy attached
+    to Manectric. If you do, Manectric does 10 damage to itself.
+weaknesses:
+- type: Fighting
+  value: "×2"
+resistances:
+- type: Metal
+  value: "-30"
+retreatCost:
+- Colorless
+convertedRetreatCost: 1
+set:
+  id: ex8
+  name: Deoxys
+  series: EX
+  printedTotal: 107
+  total: 108
+  legalities:
+    unlimited: Legal
+  ptcgoCode: DX
+  releaseDate: 2005/02/01
+  updatedAt: 2019/01/28 16:44:00
+  images:
+    symbol: https://images.pokemontcg.io/ex8/symbol.png
+    logo: https://images.pokemontcg.io/ex8/logo.png
+number: '38'
+artist: Hajime Kusajima
+rarity: Uncommon
+nationalPokedexNumbers:
+- 310
+legalities:
+  unlimited: Legal
+images:
+  small: https://images.pokemontcg.io/ex8/38.png
+  large: https://images.pokemontcg.io/ex8/38_hires.png
+tcgplayer:
+  url: https://prices.pokemontcg.io/tcgplayer/ex8-38
+  updatedAt: 2023/09/10
+  prices:
+    normal:
+      low: 0.25
+      mid: 0.49
+      high: 1.99
+      market: 0.51
+      directLow: 0.2
+    reverseHolofoil:
+      low: 7.38
+      mid: 9.36
+      high: 22.28
+      market: 14.57
+      directLow: 
+cardmarket:
+  url: https://prices.pokemontcg.io/cardmarket/ex8-38
+  updatedAt: 2023/09/10
+  prices:
+    averageSellPrice: 0.31
+    lowPrice: 0.02
+    trendPrice: 0.88
+    germanProLow: 0.0
+    suggestedPrice: 0.0
+    reverseHoloSell: 0.0
+    reverseHoloLow: 1.5
+    reverseHoloTrend: 8.14
+    lowPriceExPlus: 0.19
+    avg1: 0.25
+    avg7: 0.63
+    avg30: 0.55
+    reverseHoloAvg1: 3.5
+    reverseHoloAvg7: 5.56
+    reverseHoloAvg30: 6.3

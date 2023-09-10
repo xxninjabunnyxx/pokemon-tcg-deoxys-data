@@ -1,0 +1,66 @@
+---
+id: ex8-86
+name: Energy Charge
+supertype: Trainer
+subtypes:
+- Item
+rules:
+- Flip a coin. If heads, search your discard pile for 2 Energy cards (1 if there is
+  only 1), show them to your opponent, and shuffle them into your deck.
+set:
+  id: ex8
+  name: Deoxys
+  series: EX
+  printedTotal: 107
+  total: 108
+  legalities:
+    unlimited: Legal
+  ptcgoCode: DX
+  releaseDate: 2005/02/01
+  updatedAt: 2019/01/28 16:44:00
+  images:
+    symbol: https://images.pokemontcg.io/ex8/symbol.png
+    logo: https://images.pokemontcg.io/ex8/logo.png
+number: '86'
+artist: Keiji Kinebuchi
+rarity: Uncommon
+legalities:
+  unlimited: Legal
+images:
+  small: https://images.pokemontcg.io/ex8/86.png
+  large: https://images.pokemontcg.io/ex8/86_hires.png
+tcgplayer:
+  url: https://prices.pokemontcg.io/tcgplayer/ex8-86
+  updatedAt: 2023/09/10
+  prices:
+    normal:
+      low: 0.42
+      mid: 0.61
+      high: 1.99
+      market: 0.82
+      directLow: 0.42
+    reverseHolofoil:
+      low: 2.64
+      mid: 3.5
+      high: 22.79
+      market: 3.25
+      directLow: 3.5
+cardmarket:
+  url: https://prices.pokemontcg.io/cardmarket/ex8-86
+  updatedAt: 2023/09/10
+  prices:
+    averageSellPrice: 0.69
+    lowPrice: 0.19
+    trendPrice: 0.63
+    germanProLow: 0.0
+    suggestedPrice: 0.0
+    reverseHoloSell: 0.0
+    reverseHoloLow: 0.99
+    reverseHoloTrend: 5.32
+    lowPriceExPlus: 0.2
+    avg1: 1.1
+    avg7: 0.89
+    avg30: 0.68
+    reverseHoloAvg1: 10.0
+    reverseHoloAvg7: 6.2
+    reverseHoloAvg30: 3.15
